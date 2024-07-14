@@ -11,7 +11,7 @@
       alt="listing_image"
     />
     <div class="card-body">
-      <p class="card-text">Owned by <b><%=listing.owner.username%></b></p>
+      <p class="card-text">Owned by <b><%=listing.owner%></b></p>
       <p class="card-text">
         <%= listing.description %>
         <br />
@@ -26,7 +26,7 @@
 
   <br />
 </div>
-<% if(currUser && currUser._id.equals(listing.owner._id)) { %>
+<% if(currUser && currUser._id.equals(listing.owner)) { %>
 <div class="btns mb-3">
   <a
     href="/listings/<%=listing._id%>/edit"

@@ -1,17 +1,17 @@
-Tech stack : Mongo Db, Ejs templates , Moongose, Node and Express JS , Java Scriptc
 
 ---
 
 # Wanderlust
 
+![alt text](https://i.ibb.co/myZG6rx/Screenshot-2024-07-14-184422.png)
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Contributing](#contributing)
-- [Contact](#contact)
+- Introduction
+- Features
+- Tech Stack
+- Installation
+- Contributing
+- Contact
 
 ## What is wanderlust?
 
@@ -40,16 +40,14 @@ Tech stack : Mongo Db, Ejs templates , Moongose, Node and Express JS , Java Scri
 2. **Install the dependencies**
    npm install
 3. **Set up environment variables**
-   Create a .env file in the root directory and add the following variables:
-   CLOUD_NAME = name
-   CLOUD_API_KEY = yourkey
-   CLOUD_API_SECRET = yoursecretcode
+   Create a .env file in the root directory and add the following variables: <br>
+   CLOUD_NAME = name <br>
+   CLOUD_API_KEY = yourkey <br>
+   CLOUD_API_SECRET = yoursecretcode 
 
-4. **Start the development server**
-   nodemon app.js
-
-   # or
-
+4. **Start the development server** <br>
+   nodemon app.js <br>
+   **or** <br>
    node app.js
 
 5. **Open in the Browser**
@@ -59,7 +57,7 @@ Tech stack : Mongo Db, Ejs templates , Moongose, Node and Express JS , Java Scri
 
 Contributions are welcome! Please follow these steps to contribute:
 
-1. Fork the repository
+1. Fork the repository and clone it.
 2. Create a new branch (git checkout -b feature/your-feature)
 3. Commit your changes (git commit -m 'Add some feature')
 4. Push to the branch (git push origin feature/your-feature)

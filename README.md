@@ -35,15 +35,15 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/wanderlust.git
-   cd wanderlust
+   git clone https://github.com/yourusername/Wanderlust-MERN.git
+   cd Wanderlust-MERN
    ```
 2. **Install the dependencies**
    ```bash
    npm install
    ```
 4. **Set up environment variables**
-   Create a .env file in the root directory and add the following variables: <br>
+   Create a .env file in the root directory and add the following variables: 
    ```bash
    CLOUD_NAME = name
    CLOUD_API_KEY = yourkey 

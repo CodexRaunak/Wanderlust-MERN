@@ -34,23 +34,30 @@
 ## Installation Steps
 
 1. **Clone the repository**
+   ```bash
    git clone https://github.com/yourusername/wanderlust.git
    cd wanderlust
-
+   ```
 2. **Install the dependencies**
+   ```bash
    npm install
-3. **Set up environment variables**
+   ```
+4. **Set up environment variables**
    Create a .env file in the root directory and add the following variables: <br>
-   CLOUD_NAME = name <br>
-   CLOUD_API_KEY = yourkey <br>
-   CLOUD_API_SECRET = yoursecretcode 
+   ```bash
+   CLOUD_NAME = name
+   CLOUD_API_KEY = yourkey 
+   CLOUD_API_SECRET = yoursecretcode
+   ```
 
-4. **Start the development server** <br>
-   nodemon app.js <br>
-   **or** <br>
+5. **Start the development server** <br>
+   ```bash
+   nodemon app.js 
+      or 
    node app.js
+   ```
 
-5. **Open in the Browser**
+6. **Open in the Browser**
    http://localhost:8080
 
 ## Contributing

@@ -58,7 +58,7 @@
    ```
 
 6. **Open in the Browser**
-   http://localhost:8080
+   http://localhost:8080/listings
 
 ## Contributing
 
